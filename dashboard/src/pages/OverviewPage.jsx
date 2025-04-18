@@ -4,7 +4,7 @@ import { ShoppingBag } from 'lucide-react';
 import { SalesOverView } from '../components/overview/SalesOverView.jsx';
 import CategoryDistributionChart from "../components/overview/CategoryDistributionChart";
 import SalesChannelChart from "../components/overview/SalesChannelChart";
-import { StatsCard } from "../components/common/StatsCard";
+import StatsCard from "../components/common/StatsCard";
 import { motion } from 'framer-motion';
 
 const OverviewPage = () => {

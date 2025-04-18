@@ -1,5 +1,5 @@
 import {motion} from 'framer-motion';
-import { CartesianGrid, BarChart, Bar, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer, Legend, Cell } from 'recharts';
 
 
 
@@ -57,4 +57,4 @@ const SalesChannelChart = () => {
   )
 }
 
-export default SalesChannelChart
+export default SalesChannelChart;
