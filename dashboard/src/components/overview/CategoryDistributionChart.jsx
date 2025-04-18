@@ -1,5 +1,5 @@
 import {motion} from 'framer-motion';
-import { PieChart, Pie,Cell, Tootip, Legend, ResponsiveContainer } from "lucide-react";
+import { PieChart, Pie,Cell, Tooltip, Legend, ResponsiveContainer } from "recharts";
 
 
 

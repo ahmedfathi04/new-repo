@@ -1,5 +1,4 @@
-import React from 'react'
-import { BarChart2, Settings, ShoppingBag, ShoppingCart, TrendingUp, Users, DollarSign, Menu } from 'lucide-react'
+import { BarChart2, Settings, ShoppingBag, ShoppingCart, TrendingUp, Users, DollarSign, Menu } from 'lucide-react';
 import { motion }  from 'framer-motion';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -18,7 +17,7 @@ const Sidebar = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(true);
     return (
     <motion.div
-    className = {'relative z-10 transition-all duration-300 ease-in-out flex-shrink-0 ${isSidebarOpen ? "w-64" : "w-20"}'} 
+    className={`relative z-10 transition-all duration-300 ease-in-out flex-shrink-0 ${isSidebarOpen ? "w-64" : "w-20"}`} 
     animate={{ width: isSidebarOpen ? 256:80 }}
     >
     <div className ='h-full bg-gray-800 bg-opacity-50 background-blur-md p-4 flex flex-col border-r border-gray-700' >

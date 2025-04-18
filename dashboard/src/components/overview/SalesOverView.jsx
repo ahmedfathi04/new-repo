@@ -1,4 +1,5 @@
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "lucide-react";
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { LineChart as LineChartIcon, Grid, Info, Maximize } from 'lucide-react';
 import { motion } from "framer-motion";
 
 
@@ -18,7 +19,8 @@ const salesData = [
     { name: "Jun", sales: 7500 },
     ];
 
-    const SalesOverviewChart = () => {
+    
+    export function SalesOverView() {
         return (
             <motion.div
             classNmae='bg-gray-800 bg-opacity-50 background-blur-md rounded-xl p-6 border border-gray-700'
